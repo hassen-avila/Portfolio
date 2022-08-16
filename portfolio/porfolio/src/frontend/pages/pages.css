@@ -24,4 +24,18 @@
 }
 .image-page-conteiner{
     width: 40%;
+} 
+@media (max-width:889px){
+.page-info-conteiner{
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .image-page-conteiner{
+    width: 90%;
+    padding-top: 1rem;
+}
+.text-page-conteiner{
+    width: 90%;
+}
 }

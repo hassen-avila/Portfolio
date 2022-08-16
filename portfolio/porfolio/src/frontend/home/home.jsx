@@ -13,7 +13,7 @@ export default function home() {
         }}
       >
         <Anim>
-        <LinkRouter
+          <LinkRouter
                 to='/about-me'
               >
           <div

@@ -149,4 +149,12 @@ a{
       height: 0;
     }
   }
-  
+  @media (max-width:889px){
+    .line {
+        display: none;
+    }
+    .animation{
+      text-align: center;
+      width: 20rem;
+    }
+  }
