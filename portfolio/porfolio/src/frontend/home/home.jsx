@@ -1,9 +1,9 @@
 import '../home/home.css'
+import {Link as LinkRouter} from "react-router-dom"
 
 export default function home() {
     return (
       <div
-        className="App"
         style={{
           width: "100vw",
           height: "100vh",
@@ -13,6 +13,9 @@ export default function home() {
         }}
       >
         <Anim>
+        <LinkRouter
+                to='/about-me'
+              >
           <div
             className="random-container"
             style={{
@@ -24,9 +27,12 @@ export default function home() {
               flexDirection:"column"
             }}
           >
+          
           <h1 className='name-text'>AVILA HASSEN</h1>
           <h3 className='title-text'>Full-stack Developer MERN & Mobile Apps</h3>
+          
           </div>
+          </LinkRouter>
         </Anim>
       </div>
     );

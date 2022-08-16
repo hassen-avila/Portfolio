@@ -1,0 +1,35 @@
+.contact-conteiner{
+    background-image: url('https://images.pexels.com/photos/2086917/pexels-photo-2086917.png?cs=srgb&dl=pexels-tyler-lastovich-2086917.jpg&fm=jpg');
+    background-size: cover;
+    object-fit: cover;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.text-contact{
+    text-align: center;
+    color: white;
+}
+.text-contact-p{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 153, 255);
+}

@@ -1,0 +1,27 @@
+.pages-conteiner{
+    background-color: black;
+
+}
+.text-page{
+    color: whitesmoke;
+    text-align: center;
+}
+.page-conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.text-page-conteiner{
+    width: 45%;
+}
+.page-info-conteiner{
+    display: flex;
+    justify-content: space-around !important;
+    align-items:center ;
+}
+.image-page{
+    width: 100%;
+}
+.image-page-conteiner{
+    width: 40%;
+}
